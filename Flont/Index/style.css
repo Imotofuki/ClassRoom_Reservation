@@ -1,0 +1,236 @@
+body {
+    background-color: gainsboro;
+    font-family: 'BIZ UDPゴシック';
+}
+
+/* ボタンのアニメーションと色 */
+.Class_blue_button_animation {
+    background: dodgerblue;
+    color: white;
+    transition: 0.5s;
+}
+
+.Class_blue_button_animation:hover {
+    background: blue;
+}
+
+.Class_blue_button_animation:active {
+    background: navy;
+}
+
+
+
+/* トップページ */
+.Class_top_title {
+    background: white;
+    width: fit-content;
+    font-size: 60px;
+
+    margin: 0 auto;
+    margin-top: 70px;
+    padding: 20px;
+    border-radius: 10px;
+    border: dashed 2px black;
+}
+
+.Class_top_sub_title {
+    font-size: 40px;
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 120px;
+
+}
+
+.Class_top_button {
+    size: 100px;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    /* 間隔をあける */
+    gap: 100px;
+
+
+}
+
+/* トップとコード入力のボタン配置は共有 */
+.Class_top_and_code_button {
+    /*波紋の基点とするためrelativeを指定*/
+    position: relative;
+    /*はみ出す波紋を隠す*/
+    overflow: hidden;
+    /*ボタンの形状*/
+    font-size: 30px;
+    padding: 30px 0px;
+    font-weight: bold;
+    border-radius: 10px;
+    background: dodgerblue;
+    color: white;
+    transition: 0.5s;
+    text-align: center;
+    /* 影を付ける */
+    filter: drop-shadow(5px 5px 5px #4e4e4e);
+    width: 12%;
+}
+
+.Class_top_and_code_button::after {
+    content: "";
+    /*絶対配置で波紋位置を決める*/
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    /*波紋の形状*/
+    background: radial-gradient(circle, #fff 10%, transparent 10%) no-repeat 50%;
+    transform: scale(10, 10);
+    /*はじめは透過0に*/
+    opacity: 0;
+    /*アニメーションの設定*/
+    transition: transform 0.3s, opacity 1s;
+}
+
+.Class_top_and_code_button:active::after {
+    transform: scale(0, 0);
+    transition: 0s;
+    opacity: 0.3;
+
+}
+
+.Class_top_and_code_button:hover {
+    /* background: royalblue; */
+    scale: 1.2;
+}
+
+.Class_top_and_code_button:active {
+    background: navy;
+}
+
+input {
+    text-align: center;
+    font-size: 30px;
+}
+
+
+/* 教師用 */
+.Class_code_sub_title {
+    font-size: 40px;
+    text-align: center;
+    background-color: white;
+    width: fit-content;
+    margin: 100px auto 0px auto;
+    padding: 5px 20px;
+    border: solid 2px black;
+}
+
+.Class_code_form {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.Class_code_input {
+    width: 30%;
+    height: 40px;
+    size: 100px;
+    margin: 100px auto;
+}
+
+.Class_code_button {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+/* 起き上がりのアニメーション */
+
+.shutter {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #1e1e1e;
+    z-index: 9999;
+    animation: byeShutter 1.5s forwards;
+
+    &::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        margin: auto;
+        background-color: #f3f3f3;
+        width: 0;
+        height: 1px;
+        animation: shutterOpen 1.5s forwards;
+    }
+}
+
+.content {
+    animation: contentScale 1.5s forwards;
+}
+
+@keyframes byeShutter {
+    70% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+        display: none;
+        z-index: -1;
+    }
+}
+
+@keyframes shutterOpen {
+    0% {
+        width: 0;
+        height: 1px;
+    }
+
+    50% {
+        width: 100%;
+        height: 1px;
+    }
+
+    90% {
+        width: 100%;
+        height: 100%;
+    }
+
+    100% {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@keyframes contentScale {
+    70% {
+        transform: perspective(800px) scale(0.9) rotateX(15deg);
+    }
+
+    100% {
+        transform: perspective(800px) scale(1) rotateX(0);
+    }
+}
+
+.wrap {
+    animation: fadein 3s forwards;
+}
+
+@keyframes fadein {
+    0% {
+        opacity: 0
+    }
+
+    100% {
+        opacity: 1
+    }
+}
+
+.Class_code_not_found {
+    font-size: 25px;
+    color: red;
+}

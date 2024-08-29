@@ -1,0 +1,228 @@
+body {
+    background-color: gainsboro;
+    font-family: BIZ UDPゴシック;
+}
+
+.header {
+    width: fit-content;
+    margin: 50px auto;
+    background-color: white;
+    font-size: 30px;
+    padding: 30px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.title {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 50px;
+    width: fit-content;
+    margin: 0 auto;
+    background-color: white;
+}
+
+.date_button {
+    display: block;
+    margin: 0 auto;
+
+    font-size: 30px;
+    padding: 8px 77px;
+    border-radius: 15px;
+    background: dodgerblue;
+    color: white;
+    transition: 0.5s;
+    text-align: center;
+    font-weight: 900;
+}
+
+.date_button:hover {
+    background-color: rgb(43, 102, 134);
+}
+
+.date_button:active {
+    background: navy;
+}
+
+table {
+    margin: 0 auto;
+    font-size: 30px;
+    margin-top: 50px;
+    background: gray;
+}
+
+td {
+    background-color: gray;
+    font-size: 30px;
+
+
+}
+
+#ui-datepicker-div {
+    display: block;
+    width: fit-content;
+}
+
+#ui-datepicker-div th {
+    border: 1px solid black;
+    border-radius: 5px;
+    width: fit-content;
+    padding: 5px 7px;
+    /* background-color: black; */
+}
+
+.ui-datepicker-month,
+.ui-datepicker-month option {
+    font-family: BIZ UDPゴシック;
+    font-weight: bold;
+}
+
+.ui-datepicker-current.ui-state-default.ui-priority-secondary.ui-corner-all {
+    font-weight: bold;
+    color: black;
+    width: 45%;
+    height: 50px;
+    background: dodgerblue;
+    color: white;
+    border-radius: 15px;
+}
+
+.ui-datepicker-close.ui-state-default.ui-priority-primary.ui-corner-all {
+    width: 45%;
+    height: 50px;
+    background: dodgerblue;
+    color: white;
+    border-radius: 15px;
+}
+
+.ui-datepicker-prev.ui-corner-all {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(210, 209, 209);
+    border-radius: 30px;
+
+}
+
+.ui-datepicker-next.ui-corner-all {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(210, 209, 209);
+    border-radius: 30px;
+}
+
+.ui-datepicker-title {
+    font-size: 30px;
+    font-family: BIZ UDPゴシック;
+}
+
+th {
+    font-size: 30px;
+    /* background-color: white; */
+}
+
+.table {
+    gap: 50px;
+}
+
+.table td {
+    background-color: white;
+    height: 50px;
+}
+
+.table th {
+    background-color: white;
+    width: 150px;
+}
+
+.button1 {
+    display: block;
+    font-size: 14px;
+    padding: 10% 0px;
+    width: 100%;
+    border-radius: 5px;
+    background: dodgerblue;
+    color: white;
+    transition: 0.5s;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.button1:hover {
+    background-color: rgb(43, 102, 134);
+}
+
+.button1:active {
+    background: navy;
+}
+
+.button2 {
+    display: block;
+    font-size: 20px;
+    padding: 14px 0px;
+    width: 100%;
+    border-radius: 5px;
+    background: tomato;
+    color: white;
+    transition: 0.5s;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.btn {
+    display: block;
+    font-size: 20px;
+    padding: 8px 52px;
+    border-radius: 5px;
+    background: dodgerblue;
+    color: white;
+    transition: 0.5s;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.btn:hover {
+    background-color: rgb(43, 102, 134);
+}
+
+.btn:active {
+    background: navy;
+}
+
+.button4 {
+    display: block;
+    font-size: 14px;
+    padding: 10% 0px;
+    width: 100%;
+    border-radius: 5px;
+    background: green;
+    color: white;
+    transition: 0.5s;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.button4:hover {
+    background-color: rgb(43, 102, 134);
+}
+
+.button4:active {
+    background: navy;
+}
+
+.button5 {
+    display: block;
+    font-size: 14px;
+    padding: 10% 0px;
+    width: 100%;
+    border-radius: 5px;
+    background: green;
+    color: white;
+    transition: 0.5s;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+}

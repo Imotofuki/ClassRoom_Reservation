@@ -1,0 +1,60 @@
+body {
+    background-color: gainsboro;
+    font-family: 'BIZ UDPゴシック';
+}
+
+.Class_home_title {
+    background: white;
+    width: fit-content;
+    font-size: 50px;
+
+    margin: 0 auto;
+    margin-top: 70px;
+    padding: 20px 100px;
+    border-radius: 100px;
+    border: solid 2px black;
+}
+
+.Class_home_button {
+    size: 100px;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    /* 間隔をあける */
+    gap: 40px;
+}
+
+.Class_blue_button {
+    font-size: 25px;
+    padding: 0px 70px;
+    border-radius: 10px;
+    background: dodgerblue;
+    color: white;
+    transition: 0.5s;
+    text-align: center;
+    /* 影を付ける */
+    filter: drop-shadow(5px 5px 5px #4e4e4e);
+    margin: 20px 0;
+}
+
+
+
+.Class_blue_button:hover {
+    /* background: royalblue; */
+    scale: 1.2;
+}
+
+.Class_blue_button:active {
+    background: navy;
+}
+
+.Class_button {
+    margin: 50px auto;
+}
+
+.Class_top_button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

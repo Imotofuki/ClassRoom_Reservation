@@ -1,0 +1,257 @@
+body {
+    background-color: gainsboro;
+    font-family: BIZ UDPゴシック;
+}
+
+.title {
+    text-align: center;
+    font-size: 45px;
+    padding-top: 70px;
+    font-weight: 900;
+}
+
+.title2 {
+    text-align: center;
+    font-size: 70px;
+    padding-top: 70px;
+    font-weight: 900;
+}
+
+.contents {
+    background-color: white;
+    margin: 0 auto;
+    padding: 30px;
+    width: fit-content;
+    border-radius: 5px;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 35px;
+    line-height: 50px;
+}
+
+
+
+.Class_blue_button {
+    font-size: 20px;
+    padding: 10px 0px;
+    border-radius: 5px;
+    width: 100px;
+    background: dodgerblue;
+    color: white;
+    transition: 0.5s;
+    text-align: center;
+}
+
+.Class_blue_button:hover {
+    background-color: rgb(43, 102, 134);
+}
+
+.Class_blue_button:active {
+    background: navy;
+}
+
+.delete {
+    font-size: 20px;
+    padding: 0px 20px;
+    border-radius: 5px;
+    background: red;
+    color: white;
+    transition: 0.5s;
+    text-align: center;
+}
+
+.delete:hover {
+    background-color: rgb(154, 15, 15);
+}
+
+.delete:active {
+    background: rgb(72, 9, 9);
+}
+
+.example {
+    width: fit-content;
+    border: 1px solid black;
+    padding: 10px 20px;
+    margin-left: auto;
+    /* color: red; */
+}
+
+.care {
+    color: red;
+    font-size: 15px;
+}
+
+.subtitle1 {
+    background-color: tomato;
+    color: white;
+    width: fit-content;
+    font-weight: bold;
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.subtitle2 {
+    background-color: royalblue;
+    color: white;
+    width: fit-content;
+    font-weight: bold;
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+table {
+    margin-bottom: 30px;
+}
+
+.member {
+    display: flex;
+    gap: 2px;
+}
+
+.Class_cnt {
+    font-size: 25px;
+    font-weight: bold;
+    size: 25px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+#num {
+    size: 25px;
+    font-size: 25px;
+
+    font-weight: bold;
+
+}
+
+select {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.text {
+    size: 25px;
+    font-size: 25px;
+}
+
+option {
+    font-weight: bold;
+}
+
+.line {
+    background-color: black;
+    height: 3px;
+    margin: 0 -30px;
+}
+
+.check {
+    font-size: 30px;
+    font-weight: bold;
+    background-color: white;
+    width: fit-content;
+    padding: 50px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 70px auto;
+    margin-bottom: 50px;
+}
+
+.foot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    gap: 70px;
+}
+
+.Class_blue_button2 {
+    font-size: 30px;
+    padding: 30px 0;
+    width: 12%;
+    border-radius: 15px;
+    background: dodgerblue;
+    color: white;
+    transition: 0.5s;
+    text-align: center;
+    font-weight: 900;
+}
+
+.Class_blue_button2:hover {
+    scale: 1.2;
+}
+
+.Class_blue_button2:active {
+    background: navy;
+}
+
+.Class_blue_button3 {
+    font-size: 30px;
+    padding: 8px 0;
+    width: 12%;
+    height: 120px;
+    border-radius: 15px;
+    background: dodgerblue;
+    color: white;
+    transition: 0.5s;
+    text-align: center;
+    font-weight: 900;
+}
+
+.Class_blue_button3:hover {
+    scale: 1.2;
+}
+
+.Class_blue_button3:active {
+    background: navy;
+}
+
+.checkbox {
+    transform: scale(2);
+    margin-top: 50px;
+    margin-right: 10px;
+    height: fit-content;
+}
+
+.under {
+    display: block;
+    text-align: center;
+}
+
+.subtitle {
+    font-size: 30px;
+    font-weight: bold;
+    width: fit-content;
+    padding: 50px;
+    margin: 50px auto;
+    margin-bottom: 50px;
+}
+
+.reservation_contents {
+    font-size: 45px;
+    font-weight: bold;
+    background-color: white;
+    width: fit-content;
+    padding: 50px 100px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 70px auto;
+    margin-bottom: 0px;
+    line-height: 2;
+    text-align: center;
+}
+
+.end_contents {
+    font-size: 25px;
+    margin: 100px;
+    text-align: center;
+    line-height: 1.3;
+}
+
+select {
+    width: 100%;
+}

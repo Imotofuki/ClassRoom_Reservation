@@ -1,0 +1,92 @@
+body {
+    background-color: gainsboro;
+    font-family: BIZ UDPゴシック;
+}
+
+.title {
+    font-size: 50px;
+    margin: 70px auto;
+    font-weight: 900;
+    background-color: white;
+    width: fit-content;
+    padding: 30px;
+    border: 2px dotted black;
+    border-radius: 20px;
+}
+
+.subtitle {
+    text-align: center;
+    font-size: 35px;
+    /* padding-top: 70px; */
+    font-weight: 900;
+}
+
+.room {
+    font-size: 30px;
+    font-weight: bold;
+    background-color: white;
+    width: fit-content;
+    padding: 50px 100px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 10px auto;
+    margin-bottom: 50px;
+    line-height: 2;
+    text-align: center;
+}
+
+.leader {
+    font-size: 25px;
+    font-weight: bold;
+    background-color: white;
+    width: fit-content;
+    padding: 30px 60px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 10px auto;
+    margin-bottom: 50px;
+    line-height: 2;
+    text-align: center;
+}
+
+.member {
+    font-size: 25px;
+    font-weight: bold;
+    background-color: white;
+    width: fit-content;
+    padding: 50px 100px;
+    border: 1px solid black;
+    border-radius: 50px;
+    margin: 10px auto;
+    margin-bottom: 50px;
+    line-height: 2;
+    text-align: center;
+}
+
+.foot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    margin: 100px;
+}
+
+.Class_blue_button2 {
+    font-size: 30px;
+    padding: 30px 0;
+    width: 12%;
+    border-radius: 15px;
+    background: dodgerblue;
+    color: white;
+    transition: 0.5s;
+    text-align: center;
+    font-weight: 900;
+}
+
+.Class_blue_button2:hover {
+    scale: 1.2;
+}
+
+.Class_blue_button2:active {
+    background: navy;
+}
